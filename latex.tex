@@ -147,24 +147,19 @@ https://github.com/KUSUMAPRIYAPULAVARTY/assignment16
  \section{QUESTION}
 Let $\mathbbf{T}$ be the linear operator on $\mathbbf{R}^3$ defined by 
 \begin{align}
-    \mathbbf{T}(x_1,x_2,x_3)=\\(3x_1+x_3,-2x_1+x_2,-x_1+2x_2+4x_3)
+    \mathbbf{T}(x_1,x_2,x_3)=\\(3x_1+x_3,-2x_1+x_2,-x_1+2x_2+4x_3)\label{1}
 \end{align}
 What is the matrix of $\mathbbf{T}$ in the standard ordered basis of $\mathbbf{R}^3$?
 %
 
 \section{Solution}
-The standard ordered basis for $\mathbbf{R}^3$ is 
 \begin{align}
-    \cbrak{\vec{e_1},\vec{e_2},\vec{e_3}}=\cbrak{\myvec{1\\0\\0},\myvec{0\\1\\0},\myvec{0\\0\\1}}\\\vec{x}=\myvec{x_1\\x_2\\x_3}
-    \end{align}
-The matrix of $\mathbbf{T}$ in the standard ordered basis is 
+   \vec{x}=\myvec{x_1\\x_2\\x_3}\\
+   \mathbbf{T}(\vec{x})=\vec{T}\vec{x}
+   \end{align}
+The matrix of $\mathbbf{T}$ in the standard ordered basis from \eqref{1} is 
  \begin{align}   
-   \vec{T}=\myvec{\mathbbf{T}\vec{(e_1)}& \mathbbf{T}\vec{(e_2)}&\mathbbf{T}\vec{(e_2)} }\\
-    \mathbbf{T}\vec{(e_1)}=\myvec{3\\-2\\-1}\\
-    \mathbbf{T}\vec{(e_2)}=\myvec{0\\1\\2}\\
-    \mathbbf{T}\vec{(e_3)}=\myvec{1\\0\\4}\\
-   \text{Hence, } \vec{T}=\myvec{3&0&1\\-2&1&0\\-1&2&4}\\
-    \text{and }\mathbbf{T}(\vec{x})=\vec{T}\vec{x}
+   \vec{T}=\myvec{3&0&1\\-2&1&0\\-1&2&4}
 \end{align}
 \end{document}
 
